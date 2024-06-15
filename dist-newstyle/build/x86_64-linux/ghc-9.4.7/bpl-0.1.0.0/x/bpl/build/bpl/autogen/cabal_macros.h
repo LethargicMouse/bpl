@@ -20,6 +20,26 @@
   (major1) == 4 && (major2) <  17 || \
   (major1) == 4 && (major2) == 17 && (minor) <= 2)
 #endif /* MIN_VERSION_base */
+/* package mtl-2.2.2 */
+#ifndef VERSION_mtl
+#define VERSION_mtl "2.2.2"
+#endif /* VERSION_mtl */
+#ifndef MIN_VERSION_mtl
+#define MIN_VERSION_mtl(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  2 || \
+  (major1) == 2 && (major2) == 2 && (minor) <= 2)
+#endif /* MIN_VERSION_mtl */
+/* package typed-process-0.2.11.1 */
+#ifndef VERSION_typed_process
+#define VERSION_typed_process "0.2.11.1"
+#endif /* VERSION_typed_process */
+#ifndef MIN_VERSION_typed_process
+#define MIN_VERSION_typed_process(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 11)
+#endif /* MIN_VERSION_typed_process */
 
 /* tool gcc-13 */
 #ifndef TOOL_VERSION_gcc

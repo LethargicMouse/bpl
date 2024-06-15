@@ -29,6 +29,9 @@ executable bpl
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.17.2.0
+    build-depends:    base,
+                      mtl,
+                      typed-process
     hs-source-dirs:   app
     default-language: Haskell2010
+    ghc-options:      -Wall
