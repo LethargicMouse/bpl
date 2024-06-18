@@ -31,7 +31,8 @@ executable bpl
     -- other-extensions:
     build-depends:    base,
                       mtl,
-                      typed-process
+                      typed-process,
+                      containers
     hs-source-dirs:   app
     default-language: Haskell2010
     ghc-options:      -Wall
